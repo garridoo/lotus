@@ -1,4 +1,4 @@
-##scripts related to the [manuscript by Zgadzaj, Garrido-Oter *et al.*, 2016](doi:10.1073/pnas.1616564113)
+##scripts related to the [manuscript by Zgadzaj, Garrido-Oter *et al.*, 2016](http://www.pnas.org/content/early/2016/11/17/1616564113.full)
 
 ###scripts and configuration files to perform analysis of 16S raw sequencing reads:
 
