@@ -2,15 +2,11 @@
 
 ###scripts and configuration files to perform analysis of 16S raw sequencing reads:
 
-./16S_data_analyses/config_1416.sh
-
-./16S_data_analyses/config_1018.sh
-
-./16S_data_analyses/16s.sh
+[config_1416.sh](https://github.com/garridoo/lotus/16S_data_analyses/config_1416.sh)
+[config_1018.sh](.https://github.com/garridoo/lotus/16S_data_analyses/config_1018.sh)
+[16s.sh](https://github.com/garridoo/lotus/16S_data_analyses/16s.sh)
 
 ./16S_data_analyses/16s.functions.sh
-
-./16S_data_analyses/config_all.sh
 
 ./16S_data_analyses/config_2186.txt
 
