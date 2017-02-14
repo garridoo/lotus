@@ -96,11 +96,7 @@ shapes <- data.frame(group=c("gifu", "soil"),
 
 sqrt_transform <- T
 
-# design$Rate <- as.character(design$Rate)
-
 d <- design
-
-# capscale.gen <- capscale(bray_curtis ~ compartment + Condition(soil), data=d, add=F, sqrt.dist=sqrt_transform)
 
 capscale.gen <- capscale(t(otu_table) ~ compartment + Condition(soil), data=d, add=F, sqrt.dist=sqrt_transform, distance="bray")
 

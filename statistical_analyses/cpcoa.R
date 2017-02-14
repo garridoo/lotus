@@ -116,10 +116,7 @@ d$genotype[design$genotype!="gifu"] <- "mutant"
 d$genotype[design$genotype=="gifu"] <- "wiltype"
 d$genotype[design$genotype=="soil"] <- "soil"
 
-# capscale.gen <- capscale(bray_curtis ~ genotype + Condition(soil), data=d, add=F, sqrt.dist=sqrt_transform)
-
 capscale.gen <- capscale(t(otu_table) ~ genotype + Condition(soil), data=d, add=F, sqrt.dist=sqrt_transform, distance="bray")
-# capscale.gen <- capscale(t(otu_table) ~ soil + Condition(compartment), data=d, add=F, sqrt.dist=sqrt_transform, distance="bray")
 
 # ANOVA-like permutation analysis
 
